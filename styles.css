@@ -1,0 +1,64 @@
+/* Basic styling for the To-Do List */
+
+/* Set default styles for the entire document */
+body {
+  font-family: Arial, sans-serif; /* Use Arial or sans-serif font for the entire page */
+  margin: 0; /* Remove default margin */
+  padding: 0; /* Remove default padding */
+}
+
+/* Styling for the container that holds the To-Do List */
+.container {
+  max-width: 600px; /* Set the maximum width of the container */
+  margin: 30px auto; /* Center the container and add space from top and bottom */
+  padding: 20px; /* Add internal padding to the container */
+  background-color: #f0f0f0; /* Set background color */
+  border-radius: 8px; /* Add rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow effect */
+}
+
+/* Style the input container */
+.input-container {
+  margin-bottom: 20px; /* Add space below the input field and buttons */
+}
+
+/* Style the input text field */
+input[type="text"] {
+  padding: 8px; /* Add padding inside the text input */
+  width: 60%; /* Set the width of the input field */
+  border-radius: 4px; /* Add rounded corners to the input field */
+  border: 1px solid #ccc; /* Add a border with a light gray color */
+  margin-right: 10px; /* Add space on the right side of the input field */
+}
+
+/* Style the buttons */
+button {
+  padding: 8px 12px; /* Add padding inside the buttons */
+  border: none; /* Remove button borders */
+  border-radius: 4px; /* Add rounded corners to buttons */
+  background-color: #007bff; /* Set background color for buttons */
+  color: white; /* Set text color for buttons */
+  cursor: pointer; /* Change cursor to a pointer on hover */
+}
+
+/* Style the buttons on hover */
+button:hover {
+  background-color: #0056b3; /* Change background color on hover */
+}
+
+/* Style the unordered list */
+ul {
+  list-style: none; /* Remove default list styles */
+  padding: 0; /* Remove padding from the list */
+}
+
+/* Style the list items */
+li {
+  margin-bottom: 10px; /* Add space between list items */
+}
+
+/* Style completed tasks with a line-through effect and reduced opacity */
+.completed {
+  text-decoration: line-through; /* Apply a line-through decoration to completed tasks */
+  opacity: 0.6; /* Reduce opacity for completed tasks */
+}
